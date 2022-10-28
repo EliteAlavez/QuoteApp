@@ -8,22 +8,20 @@ import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.first
-import kotlinx.coroutines.flow.last
 import kotlinx.coroutines.launch
 import javax.inject.Inject
 
 @HiltViewModel
-class QuoteViewModel
-@Inject constructor(private val getQuoteRandomUseCase: GetQuoteRandomUseCase
-): ViewModel() {
-
-    private val quoteModelRandomMutableStateFlow = MutableStateFlow(QuoteModel(0,"",""))
-    val quoteModel: StateFlow<QuoteModel> = quoteModelRandomMutableStateFlow
-
+class QuoteRandomViewModel
+@Inject constructor(
+    private val getQuoteRandomUseCase: GetQuoteRandomUseCase
+) : ViewModel() {
+    private val _quoteModelRandomMutableStateFlow = MutableStateFlow(QuoteModel(0, "", ""))
+    val quoteModel: StateFlow<QuoteModel> = _quoteModelRandomMutableStateFlow
 
     fun randomQuote() {
         viewModelScope.launch {
-            quoteModelRandomMutableStateFlow.value = getQuoteRandomUseCase.getQuoteRandom().first()
+            _quoteModelRandomMutableStateFlow.value = getQuoteRandomUseCase.getQuoteRandom().first()
             //_quoteModel.value = GetQuoteUseCase(quoteDAO).getQuote(1).first()
         }
     }
