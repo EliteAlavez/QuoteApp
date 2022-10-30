@@ -13,7 +13,6 @@ import com.example.quote.presentation.viewmodel.QuoteAddViewModel
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
-
 class AddFragment : Fragment() {
 
     private var _binding: FragmentAddQuoteBinding? = null
