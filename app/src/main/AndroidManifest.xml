@@ -3,9 +3,14 @@
     xmlns:tools="http://schemas.android.com/tools">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <uses-permission android:name="android.permission.INTERNET"/>
     <application
         android:usesCleartextTraffic="true"
+=======
+
+    <application
+>>>>>>> e43ceafb537471e70b30785d09946318937add4d
 =======
 
     <application
@@ -24,6 +29,7 @@
         android:supportsRtl="true"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         android:theme="@style/Theme.Quotescelebrities"
         tools:targetApi="31">
         <activity
@@ -34,12 +40,17 @@
 =======
 =======
 >>>>>>> e43ceafb537471e70b30785d09946318937add4d
+=======
+>>>>>>> e43ceafb537471e70b30785d09946318937add4d
         android:theme="@style/Theme.Quote"
         tools:targetApi="31">
         <activity
             android:name=".presentation.view.MainActivity"
             android:exported="true">
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> e43ceafb537471e70b30785d09946318937add4d
+=======
 >>>>>>> e43ceafb537471e70b30785d09946318937add4d
 =======
 >>>>>>> e43ceafb537471e70b30785d09946318937add4d
@@ -55,6 +66,7 @@
         </activity>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> e43ceafb537471e70b30785d09946318937add4d
@@ -63,3 +75,8 @@
     </application>
 
 </manifest>
+=======
+    </application>
+
+</manifest>
+>>>>>>> e43ceafb537471e70b30785d09946318937add4d

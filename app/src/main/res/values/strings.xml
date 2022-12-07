@@ -1,6 +1,7 @@
 <resources>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <string name="app_name">quotescelebrities</string>
     <string name="action_settings">Settings</string>
 
@@ -39,6 +40,10 @@
 
 
 </resources>
+=======
+    <string name="app_name">Appquote</string>
+</resources>
+>>>>>>> e43ceafb537471e70b30785d09946318937add4d
 =======
     <string name="app_name">Appquote</string>
 </resources>

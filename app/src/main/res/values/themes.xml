@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
     <style name="Theme.Quotescelebrities" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
@@ -9,6 +10,8 @@
 =======
 =======
 >>>>>>> e43ceafb537471e70b30785d09946318937add4d
+=======
+>>>>>>> e43ceafb537471e70b30785d09946318937add4d
 <resources>
     <!-- Base application theme. -->
     <style name="Theme.Quote" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
@@ -16,6 +19,9 @@
         <item name="colorPrimary">@color/purple_500</item>
         <item name="colorPrimaryVariant">@color/blue_1</item>
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> e43ceafb537471e70b30785d09946318937add4d
+=======
 >>>>>>> e43ceafb537471e70b30785d09946318937add4d
 =======
 >>>>>>> e43ceafb537471e70b30785d09946318937add4d
@@ -27,6 +33,7 @@
         <!-- Status bar color. -->
         <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     </style>
@@ -42,6 +49,8 @@
 =======
 =======
 >>>>>>> e43ceafb537471e70b30785d09946318937add4d
+=======
+>>>>>>> e43ceafb537471e70b30785d09946318937add4d
         <item name="android:background">@color/white</item>
     </style>
 
@@ -54,6 +63,9 @@
     </style>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> e43ceafb537471e70b30785d09946318937add4d
+=======
 >>>>>>> e43ceafb537471e70b30785d09946318937add4d
 =======
 >>>>>>> e43ceafb537471e70b30785d09946318937add4d
