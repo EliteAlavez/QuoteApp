@@ -1,7 +1,4 @@
 <resources>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
     <string name="app_name">quotescelebrities</string>
     <string name="action_settings">Settings</string>
 
@@ -33,6 +30,7 @@
     <string name="prompt_password">Password</string>
     <string name="action_sign_in">Sign in</string>
     <string name="action_sign_in_short">Sign in</string>
+    <string name="token_required">Token is required, please authenticate first</string>
 
 
     <!-- TODO: Remove or change this placeholder text -->
@@ -40,15 +38,3 @@
 
 
 </resources>
-=======
-    <string name="app_name">Appquote</string>
-</resources>
->>>>>>> e43ceafb537471e70b30785d09946318937add4d
-=======
-    <string name="app_name">Appquote</string>
-</resources>
->>>>>>> e43ceafb537471e70b30785d09946318937add4d
-=======
-    <string name="app_name">Appquote</string>
-</resources>
->>>>>>> e43ceafb537471e70b30785d09946318937add4d

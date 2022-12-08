@@ -8,5 +8,4 @@ import javax.inject.Inject
 class EditQuoteUseCase @Inject constructor(private val quoteRepository: QuoteRepository) {
     suspend fun editQuote(quoteModel: QuoteModel) =
         quoteRepository.editQuote(quoteModel)
-
 }

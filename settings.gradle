@@ -12,17 +12,5 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 rootProject.name = "quotescelebrities"
-=======
-rootProject.name = "quote"
->>>>>>> e43ceafb537471e70b30785d09946318937add4d
-=======
-rootProject.name = "quote"
->>>>>>> e43ceafb537471e70b30785d09946318937add4d
-=======
-rootProject.name = "quote"
->>>>>>> e43ceafb537471e70b30785d09946318937add4d
 include ':app'
